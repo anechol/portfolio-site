@@ -1,0 +1,128 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.header {
+  background: transparent;
+  padding: 15px; }
+
+.navbar {
+  float: right; }
+  .navbar a {
+    padding: 5px;
+    color: #12254f;
+    border-bottom: 3px solid transparent;
+    transition: border 0.2s; }
+    .navbar a:hover {
+      border-bottom: 3px solid #12254f;
+      transition: border 0.2s; }
+
+.intro {
+  height: 100vh;
+  background: #cecaca; }
+
+.heading {
+  display: table;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+.greeting {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+  text-align: center; }
+  .greeting .highlight {
+    color: #f76c5f;
+    font-weight: 700; }
+  .greeting .btn {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #12254f;
+    border: 4px solid #12254f;
+    padding: 0.67em 3.33em;
+    transition: background 0.2s, color 0.2s; }
+    .greeting .btn:hover {
+      color: white;
+      background: #12254f;
+      transition: background 0.2s, color 0.2s; }
+
+.title {
+  padding-top: 20px; }
+  .title h2, .title h3 {
+    text-transform: uppercase;
+    font-weight: 700; }
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around; }
+  .flexbox .item img {
+    max-width: 90vw; }
+  .flexbox .item figcaption {
+    padding: 5px; }
+  .flexbox .tags li {
+    display: inline-block;
+    padding: 3px 8px;
+    list-style-type: none;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    background: #f76c5f;
+    color: white; }
+
+.footer {
+  height: 100vh;
+  width: 100%;
+  background: #12254f;
+  color: white;
+  text-align: center;
+  overflow: hidden; }
+
+.contact {
+  padding-top: 20px;
+  padding-top: 1.3em; }
+  .contact h2, .contact h3 {
+    text-transform: uppercase;
+    font-weight: 700; }
+  .contact .btn {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #12254f;
+    border: 4px solid #12254f;
+    padding: 0.67em 3.33em;
+    transition: background 0.2s, color 0.2s;
+    margin-top: 2.67em;
+    color: white;
+    border-color: #f76c5f; }
+    .contact .btn:hover {
+      color: white;
+      background: #12254f;
+      transition: background 0.2s, color 0.2s; }
+    .contact .btn:hover {
+      background: #f76c5f; }
+
+.links {
+  margin: 2.67em 0; }
+  .links li {
+    display: inline;
+    list-style-type: none; }
+
+.copy p {
+  color: #cecaca;
+  opacity: 0.4;
+  font-weight: 700;
+  margin: 0; }

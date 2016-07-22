@@ -21,14 +21,14 @@ html {
 
 .intro {
   height: 100vh;
-  background: #cecaca; }
+  background: #e6e5e5; }
 
 .heading {
   display: table;
   position: relative;
   height: 100%;
   margin: 0 auto;
-  padding: 0 20px; }
+  padding: 0 1.33em; }
 
 .greeting {
   display: table-cell;
@@ -55,8 +55,12 @@ html {
       background: #12254f;
       transition: background 0.2s, color 0.2s; }
 
+.work {
+  text-align: center; }
+
 .title {
-  padding-top: 20px; }
+  padding-top: 1.33em;
+  margin-top: 2em; }
   .title h2, .title h3 {
     text-transform: uppercase;
     font-weight: 700; }
@@ -79,17 +83,48 @@ html {
     background: #f76c5f;
     color: white; }
 
+.about {
+  padding-top: 1.33em;
+  text-align: center; }
+  .about h2, .about h3 {
+    text-transform: uppercase;
+    font-weight: 700; }
+  .about h2, .about h4 {
+    font-weight: 700; }
+  .about .bio {
+    padding: 4em 0; }
+    .about .bio h2 {
+      margin: 0.5em 0; }
+    .about .bio p {
+      padding: 2em 0; }
+  .about .process {
+    display: block;
+    padding: 4em 0;
+    background: #e6e5e5; }
+    .about .process h4 {
+      margin: 0.5em 0; }
+    .about .process p {
+      padding: 1em 0; }
+
 .footer {
   height: 100vh;
   width: 100%;
   background: #12254f;
   color: white;
-  text-align: center;
-  overflow: hidden; }
+  text-align: center; }
+
+.table {
+  display: table;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 1.33em; }
+  .table .row {
+    display: table-cell;
+    vertical-align: middle; }
 
 .contact {
-  padding-top: 20px;
-  padding-top: 1.3em; }
+  padding-top: 1.33em; }
   .contact h2, .contact h3 {
     text-transform: uppercase;
     font-weight: 700; }
@@ -122,7 +157,7 @@ html {
     list-style-type: none; }
 
 .copy p {
-  color: #cecaca;
+  color: #e6e5e5;
   opacity: 0.4;
   font-weight: 700;
   margin: 0; }

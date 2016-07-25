@@ -1,22 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Play:400,700';
 html {
   box-sizing: border-box; }
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Play', 'Lato', sans-serif; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
 
 .header {
+  display: none;
   background: transparent;
-  padding: 15px; }
+  padding: 0.5em;
+  position: fixed;
+  background: black;
+  z-index: 5;
+  width: 100%; }
+  @media screen and (min-width: 551px) {
+    .header {
+      display: block; } }
 
 .navbar {
-  float: right; }
+  float: right;
+  display: inline;
+  z-index: 5; }
   .navbar a {
-    padding: 5px;
-    color: #12254f;
+    padding: 0.5em;
+    margin: 0;
+    color: white;
     border-bottom: 3px solid transparent;
     transition: border 0.2s; }
     .navbar a:hover {
-      border-bottom: 3px solid #12254f;
+      border-bottom: 3px solid #f76c5f;
       transition: border 0.2s; }
 
 .intro {
@@ -74,6 +89,8 @@ html {
     max-width: 90vw; }
   .flexbox .item figcaption {
     padding: 5px; }
+    .flexbox .item figcaption h4 {
+      font-weight: 700; }
   .flexbox .tags li {
     display: inline-block;
     padding: 3px 8px;
@@ -158,6 +175,6 @@ html {
 
 .copy p {
   color: #e6e5e5;
-  opacity: 0.4;
+  opacity: 0.2;
   font-weight: 700;
   margin: 0; }

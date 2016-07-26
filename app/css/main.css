@@ -13,7 +13,7 @@ body, h1, h2, h3, h4, h5, h6 {
   background: transparent;
   padding: 0.5em;
   position: fixed;
-  background: black;
+  background: #12254f;
   z-index: 5;
   width: 100%; }
   @media screen and (min-width: 551px) {
@@ -114,6 +114,9 @@ body, h1, h2, h3, h4, h5, h6 {
       margin: 0.5em 0; }
     .about .bio p {
       padding: 2em 0; }
+    .about .bio .highlight {
+      color: #f76c5f;
+      font-weight: 700; }
   .about .process {
     display: block;
     padding: 4em 0;

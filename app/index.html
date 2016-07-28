@@ -15,21 +15,24 @@
 </head>
 
 <body>
+
+	<!-- Header and Navbar -->
 	<header class="header">
 		<div class="container">
 
 				<a class="logo" href="">Logo Here</a>
 				<nav class="navbar" role="navigation">
 					<ul>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 
 		</div>
 	</header>
 	<main>
+		<!-- Intro Section -->
 		<section class="intro">
 			<div class="heading">
 				<span class="greeting">
@@ -41,7 +44,8 @@
 			</div>
 		</section>
 
-		<section class="about">
+		<!-- About and Process Section -->
+		<section id="about" class="about">
 			<article class="bio">
 				<div class="container">
 					<div class="row">
@@ -52,7 +56,7 @@
 
 						<div class="six columns">
 							<h2>What I Do...</h2>
-							<p>I specialize in <span class="highlight">Front End Development</span>. Using HTML5, CSS3, and a hint of JavaScript, I construct responsive and fluid sites to accomplish a variety of goals. Coding is akin to another form of art to me, so I make it a priority to incorporate a sizeable helping of creativity into my work.</p>
+							<p>I specialize in <span class="highlight">Front End Development</span>. Using HTML5, CSS3, and a hint of JavaScript, I construct responsive and fluid sites to accomplish a variety of goals. Coding is akin to another form of art to me, so I make it a priority to incorporate a sizeable helping of creativity in my work.</p>
 						</div>
 					</div>
 				</div>
@@ -68,19 +72,21 @@
 
 						<div class="four columns">
 							<h4>Create</h4>
-							<p>I build the skeleton of the site with HTML and dress it up pretty with CSS and a sprinkling of JavaScript. My design style reflects my sharp and clear-cut personality and I use that as my signature.</p>
+							<p>I build the skeleton of the site with HTML and dress it up pretty with CSS and a sprinkling of JavaScript. Sharp, simple design is my forte, and my goal is to present that in my work. I'm capable of using frameworks like Bootstrap or Skeleton or code by hand.</p>
 						</div>
 
 						<div class="four columns">
 							<h4>Test</h4>
 							<p>Gulp and BrowserSync make it easy to test my sites across relevant browsers that I support. My testing period does not end until I'm satisfied with the functionality and design of the final product.</p>
 						</div>
+
 					</div>
 				</div>
 			</article>
 		</section>
 
-		<section class="work">
+		<!-- Work Section -->
+		<section id="work" class="work">
 			<div class="container">
 				<div class="row">
 
@@ -90,9 +96,9 @@
 
 					<div class="flexbox twelve columns-sm">
 						<figure class="item">
-							<figcaption><h4>Pong</h4></figcaption>
-							<img src="http://lorempixel.com/500/300" alt="Placeholder">
-							<figcaption>This is my first project completed. Blah, blah...</figcaption>
+							<figcaption><h4>Ping Pong</h4></figcaption>
+							<img src="/img/pong.PNG" alt="Image displaying a preview of a ping pong browser game.">
+							<figcaption>A recreation of a classic game playable right in the browser. My first dip into game development and HTML5 Canvas was a difficult journey, but one I plan on powering through again.</figcaption>
 							<ul class="tags">
 								<li>HTML/CSS</li>
 								<li>JavaScript</li>
@@ -103,8 +109,8 @@
 
 						<figure class="item">
 							<figcaption><h4>Artist Portfolio</h4></figcaption>
-							<img src="http://lorempixel.com/500/300" alt="Placeholder">
-							<figcaption>This is my first project completed. Blah, blah...</figcaption>
+							<img src="/img/artist-site.PNG" alt="Image displaying a preview of an artist portfolio template.">
+							<figcaption>Many artists are unable to code their own websites, so I made it my mission to create a template that would solve that issue. It includes short bio and contact sections, with a flexbox gallery that showcases work and work info.</figcaption>
 							<ul class="tags">
 								<li>HTML/CSS</li>
 								<li>Sass</li>
@@ -113,7 +119,7 @@
 							</ul>
 						</figure>
 
-						<figure class="item">
+						<!-- <figure class="item">
 							<img src="http://lorempixel.com/500/300" alt="Placeholder">
 							<figcaption>This is my first project completed. Blah, blah...</figcaption>
 							<ul class="tags">
@@ -121,7 +127,7 @@
 								<li>Sass</li>
 								<li>JavaScript</li>
 							</ul>
-						</figure>
+						</figure> -->
 
 					</div>
 				</div>
@@ -130,7 +136,8 @@
 
 	</main>
 
-	<footer class="footer">
+	<!-- Contact Footer -->
+	<footer id="contact" class="footer">
 		<div class="container table">
 			<div class="row">
 

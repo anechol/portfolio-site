@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Play:400,700';
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background: #fafafa; }
 
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Play', 'Lato', sans-serif; }
@@ -36,7 +37,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro {
   height: 100vh;
-  background: #e6e5e5; }
+  background: #e4e2e2; }
 
 .heading {
   display: table;
@@ -86,7 +87,7 @@ body, h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: space-around; }
   .flexbox .item img {
-    max-width: 90vw; }
+    max-width: 500px; }
   .flexbox .item figcaption {
     padding: 5px; }
     .flexbox .item figcaption h4 {
@@ -120,7 +121,7 @@ body, h1, h2, h3, h4, h5, h6 {
   .about .process {
     display: block;
     padding: 4em 0;
-    background: #e6e5e5; }
+    background: #e4e2e2; }
     .about .process h4 {
       margin: 0.5em 0; }
     .about .process p {
@@ -177,7 +178,7 @@ body, h1, h2, h3, h4, h5, h6 {
     list-style-type: none; }
 
 .copy p {
-  color: #e6e5e5;
+  color: #e4e2e2;
   opacity: 0.2;
   font-weight: 700;
   margin: 0; }

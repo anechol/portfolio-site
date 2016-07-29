@@ -86,11 +86,11 @@ body, h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-between; }
   .flexbox .item img {
-    max-width: 500px; }
+    max-width: 310px; }
   .flexbox .item figcaption {
-    padding: 5px; }
+    padding: 1em; }
     .flexbox .item figcaption h4 {
       font-weight: 700; }
   .flexbox .tags li {
@@ -118,6 +118,12 @@ body, h1, h2, h3, h4, h5, h6 {
       color: white;
       background: #12254f;
       transition: background 0.2s, color 0.2s; }
+  @media screen and (min-width: 551px) {
+    .flexbox .item img {
+      max-width: 500px; } }
+  @media screen and (min-width: 768px) {
+    .flexbox .item img {
+      max-width: 700px; } }
 
 .about {
   padding-top: 1.33em;

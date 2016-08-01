@@ -21,6 +21,12 @@ body, h1, h2, h3, h4, h5, h6 {
     .header {
       display: block; } }
 
+.logo {
+  text-decoration: none;
+  font-size: 1.66em;
+  color: white;
+  padding: 0.5; }
+
 .navbar {
   float: right;
   display: inline;
@@ -200,6 +206,14 @@ body, h1, h2, h3, h4, h5, h6 {
   .links li {
     display: inline;
     list-style-type: none; }
+  .links a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border 0.2s; }
+    .links a:hover {
+      border-bottom: 3px solid #f76c5f;
+      transition: border 0.2s; }
 
 .copy p {
   color: #e4e2e2;

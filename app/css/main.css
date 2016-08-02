@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   background: #fafafa; }
 
-html h1, html h2, html h3, html h4, html h5, html h6, html p, html a, html figcaption, body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body figcaption {
+html, body {
   font-family: "Play", sans-serif; }
 
 *, *:before, *:after {

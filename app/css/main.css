@@ -11,12 +11,15 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .header {
   display: none;
-  background: transparent;
+  background: #12254f;
+  opacity: 0.87;
   padding: 0.5em;
   position: fixed;
-  background: #12254f;
   z-index: 5;
-  width: 100%; }
+  width: 100%;
+  transition: opacity 0.2s; }
+  .header:hover {
+    opacity: 1; }
   @media screen and (min-width: 551px) {
     .header {
       display: block; } }
@@ -26,6 +29,8 @@ body, h1, h2, h3, h4, h5, h6 {
   font-size: 1.66em;
   color: white;
   padding: 0.5; }
+  .logo a:hover {
+    color: #f76c5f; }
 
 .navbar {
   float: right;
@@ -43,7 +48,13 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro {
   height: 100vh;
-  background: #e4e2e2; }
+  background: #12254f url("/img/chicago1.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 100%;
+  background-size: cover; }
+  @media screen and (max-width: 900px) {
+    .intro {
+      color: white; } }
 
 .heading {
   display: table;
@@ -207,6 +218,7 @@ body, h1, h2, h3, h4, h5, h6 {
     display: inline;
     list-style-type: none; }
   .links a {
+    padding: 0.33em;
     color: white;
     text-decoration: none;
     border-bottom: 3px solid transparent;

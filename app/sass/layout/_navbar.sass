@@ -1,11 +1,14 @@
 .header
 	display: none
-	background: transparent
+	background: $blue
+	opacity: 0.87
 	padding: 0.5em
 	position: fixed
-	background: $blue
 	z-index: 5
 	width: 100%
+	&:hover
+		opacity: 1
+	transition: opacity 0.2s
 	@media screen and (min-width: 551px)
 		display: block
 
@@ -14,6 +17,9 @@
 	font-size: 1.66em
 	color: white
 	padding: 0.5
+	a
+		&:hover
+			color: $red
 
 .navbar
 	float: right

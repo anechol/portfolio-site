@@ -5,7 +5,7 @@
 
 var gulp = require('gulp'), // npm install gulp --save-dev
     sass = require('gulp-sass'), // npm install gulp-sass --save-dev
-	 autoprefixer = require('gulp-autoprefixer'),
+	 autoprefixer = require('gulp-autoprefixer'), // npm install gulp-autoprefixer --save-dev
     browserSync = require('browser-sync').create(), // npm install browser-sync --save-dev
     useref = require('gulp-useref'), // npm install gulp-useref --save-dev
     uglify = require('gulp-uglify'), // npm install gulp-uglify --save-dev

@@ -174,7 +174,8 @@ html, body {
   width: 100%;
   background: #12254f;
   color: white;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
 
 .table {
   display: table;

@@ -1,41 +1,25 @@
 {
-  "name": "anechol",
+  "name": "portfolio-site",
   "version": "1.0.0",
-  "main": "gulpfile.js",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "app": "^0.1.0",
+    "node-sass": "^4.9.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.13.0",
-    "del": "^2.2.1",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-cache": "^0.4.5",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-imagemin": "^3.0.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^1.5.4",
-    "gulp-useref": "^3.1.0",
-    "node-sass": "^4.9.3",
-    "run-sequence": "^1.2.2"
-  },
-  "dependencies": {
-    "browser-sync": "^2.14.3",
-    "del": "^2.2.2",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-imagemin": "^3.0.3",
-    "gulp-useref": "^3.1.2"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/anechol/anechol.git"
+    "url": "git+https://github.com/anechol/portfolio-site.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/anechol/anechol/issues"
+    "url": "https://github.com/anechol/portfolio-site/issues"
   },
-  "homepage": "https://gitlab.com/anechol/anechol#README",
-  "description": ""
+  "homepage": "https://github.com/anechol/portfolio-site#readme"
 }

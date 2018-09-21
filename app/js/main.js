@@ -22,7 +22,7 @@ const projects = [
       "List of Specimens",
       "Monologue Text Overlay"
     ],
-    tags: ["HTML5/CSS3", "Sass", "React"]
+    tags: ["HTML5/CSS3", "Sass", "JavaScript", "React"]
   },
   {
     title: "Kellogg's",
@@ -36,7 +36,7 @@ const projects = [
       "Rice Krispies Home Page",
       "Eggo Waffles Home Page"
     ],
-    tags: ["CSS", "Sass", "AEM"]
+    tags: ["CSS3", "Sass", "CMS", "Adobe Experience Manager"]
   },
   {
     title: "Intel PC Basics",
@@ -49,11 +49,10 @@ const projects = [
     ],
     imageAlt: [
       "Home Page",
-      "blah1",
+      "PC Parts List",
       "blah2",
-      "blah3",
     ],
-    tags: ["tag1", "tag2"]
+    tags: ["HTML5/CSS3", "CSS Animations", "JavaScript", "Vue"]
   }
 ];
 

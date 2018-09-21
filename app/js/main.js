@@ -40,16 +40,14 @@ const renderWork = () => {
     }
 
     markup += `
-    <div>
+    <div class="box">
       <h4>Title: ${el.title}</h4>
-    </div>
-    <img src=${el.image} alt=${el.imageAlt}>
-    <div>
+      <img src=${el.image} alt=${el.imageAlt}>
       <p>Description: ${el.description}</p>
+      <ul class='tags'>
+        ${getListItem()}
+      </ul>
     </div>
-    <ul class='tags'>
-      ${getListItem()}
-    </ul>
     `
   });  
 
@@ -58,4 +56,14 @@ const renderWork = () => {
   document.getElementById("work").innerHTML = markup;
 }
 
-renderWork();
+const getYear = () => {
+  let currYear = new Date().getFullYear();
+  document.getElementById('year').innerHTML = `&copy; ${currYear} Ashley Echols`;
+}
+
+function init() {
+  renderWork();
+  getYear();
+}
+
+init();

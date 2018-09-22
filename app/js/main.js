@@ -10,15 +10,15 @@ import pcbasics3 from '../img/work/pcbasics3.png';
 const projects = [
   {
     title: "Specimens Monologues",
-    info: "info",
-    duties: "sttttuuuffff",
+    info: "Winner of three awards at the Cannes Lions International Festival of Creativity 2018, Specimens Monologues was a project for the Chicago Field Museum of Natural History that emulated museum audio guides, but with a hilarious twist.",
+    duties: "Under the guidance of a senior developer, I, with a fellow intern, was tasked with creating the entire application using Create React App. We teamed up with pair programming to ensure the app utilized HTML5 audio as well as seemlessly transitioned between views.",
     image: [
       specimens1,
       specimens2,
       specimens3
     ],
     imageAlt: [
-      "Home Page",
+      "Specimens Home Page",
       "List of Specimens",
       "Monologue Text Overlay"
     ],
@@ -26,8 +26,8 @@ const projects = [
   },
   {
     title: "Kellogg's",
-    info: "info",
-    duties: "sttttuuuffff",
+    info: "Kellogg's offers a variety of websites showcasing their products for kids and adults to enjoy and buy.",
+    duties: "I was responsible for making content and styling updates to various Kellogg's websites through Adobe's CMS, Adobe Experience Manager. I've touched sites including: Eggo Waffles, Rice Krispies, Frosted Mini Wheats, Special K, and others.",
     image: [
       kellogg1,
       kellogg2
@@ -40,17 +40,17 @@ const projects = [
   },
   {
     title: "Intel PC Basics",
-    info: "info",
-    duties: "sttttuuuffff",
+    info: "This Intel project was created as a Vue microsite to help those new to PCs understand the basics of PC part usage.",
+    duties: "I worked with a senior developer who built out the structure of the microsite. I was tasked with styling the entire project as well as handling the graph animations on the Processors page.",
     image: [
       pcbasics1,
       pcbasics2,
       pcbasics3
     ],
     imageAlt: [
-      "Home Page",
+      "Intel PC Basics Home Page",
       "PC Parts List",
-      "blah2",
+      "Processor Comparison Graph",
     ],
     tags: ["HTML5/CSS3", "CSS Animations", "JavaScript", "Vue"]
   }

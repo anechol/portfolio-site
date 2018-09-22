@@ -22,6 +22,10 @@
 		max-width: 100%
 	
 	.info
+		p
+			max-width: 70%
+			margin: 0 auto 10px
+			text-align: left
 		.tags li
 			+tag
 
@@ -32,9 +36,15 @@
 		margin: 0.5em auto
 	@media screen and (max-width: 550px)
 		width: auto
-		img
-			height: auto
-			max-width: 100%
+		.info
+			img
+				height: auto
+				max-width: 100%
+			p
+				text-align: center
+				// margin: 0
+				max-width: 100%
+				// width: 100%
 	@media screen and (min-width: 551px)
 		// img
 		// 	max-width: 500px

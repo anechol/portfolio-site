@@ -1,6 +1,6 @@
 'use strict';
 
-const { src, dest, watch, series } = require('gulp');
+const { src, dest, watch, series, parallel } = require('gulp');
 const del = require('del');
 const cache = require('gulp-cache');
 const gulpif = require('gulp-if');
@@ -51,8 +51,8 @@ function minifyImg() {
 function build() {
   return src('app/*.html')
     .pipe(useref())
-    .pipe(gulpif('app/*.js', terser()))
-    .pipe(gulpif('app/*.css', cleanCSS({compatibility:'ie8'})))
+    .pipe(gulpif('*.js', terser()))
+    .pipe(gulpif('*.css', cleanCSS({compatibility:'ie8'})))
     .pipe(dest('app/dist'));
 }
 
@@ -67,6 +67,6 @@ function watchFiles() {
 
 // Gulp Tasks
 exports.default = watchFiles;
-exports.build = series(clean, minifyImg, build);
+exports.build = series(clean, styles, minifyImg, build);
 exports.clean = clean;
 exports.lint = lint;
